@@ -1,4 +1,8 @@
 @app.route('/trains', methods=['GET'])
+
+BASE_URL = "http://20.244.56.144/train/trains"
+AUTH_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE20TI3MT1ODEsImNvbXBhbnlOYW1lIjoiVHJhaW4gQ2VudHJbCIsImNsaWVudElEIjoiNGFKMTU2ZTYtMjBhMS00NWJKLWJhM2EtYtYTVhZWQ5YzdkNWU5Iiwib3duZXJOYW1lIjoiIiwib3duZXJFbWFpbCI6IiIsJvbGxObyI6IlJBMjAxMTAwODAyMDA2MiJ9.4EOpE_j9ZTXnWZPPUMW4Q1hK4SmIMkbgELH2lMvm_ws"
+
 def get_trains():
 
     # 1. Define the time window for the next 12 hours
