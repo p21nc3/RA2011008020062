@@ -1,0 +1,29 @@
+.app {
+  text-align: center;
+  padding: 24px;
+}
+
+.app h1 {
+  margin-bottom: 16px;
+}
+
+.app header {
+  background-color: #1976d2;
+  color: white;
+  padding: 16px;
+  border-bottom: 4px solid #135faa;
+}
+
+.app marquee {
+  font-size: 24px;
+}
+
+.app header h1 {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 16px;
+  max-width: 1200px;
+}

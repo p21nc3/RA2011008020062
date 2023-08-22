@@ -1,0 +1,15 @@
+.train-list-container {
+    padding: 16px;
+  }
+  
+  .train-list-heading {
+    margin-bottom: 16px;
+    font-size: 24px;
+  }
+  
+  .train-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+  }
+  

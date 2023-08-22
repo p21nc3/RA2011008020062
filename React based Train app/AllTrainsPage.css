@@ -1,0 +1,27 @@
+.train-detail-card {
+    background-color: #ada577;
+    border: 1px solid #1b1818;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .train-detail-card button {
+    margin-top: 16px;
+    color: white;
+    background-color: #1b1818;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .train-detail-card button:hover {
+    background-color: #141414;
+  }
+  
