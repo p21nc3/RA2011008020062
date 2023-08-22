@@ -2,4 +2,4 @@
 
 ### successfull server test.
 
-![](/React-based-Train-app/assets/myserver.jpg)
+![](/React-based-train-app/assets/myserver.jpg)
